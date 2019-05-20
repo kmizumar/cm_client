@@ -76,7 +76,7 @@ def main(argv=None):
 
         # Create an instance of the API class
         protocol = config_value('protocol', 'http')
-        api_host = config_value('api_host', '172.31.227.153')
+        api_host = config_value('api_host', 'cloudera-manager.example.com')
         api_port = config_value('api_port', '7180')
         api_version = config_value('api_version', 'v32')
         api_uri = f'{protocol}://{api_host}:{api_port}/api/{api_version}'
